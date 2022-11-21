@@ -54,7 +54,7 @@ class ImageDataset(Dataset):
         self,
         folder,
         image_size,
-        exts = ['jpg', 'jpeg', 'png']
+        exts = ['jpg', 'jpeg', 'png', 'JPEG']
     ):
         super().__init__()
         self.folder = folder
